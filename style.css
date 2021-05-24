@@ -1,0 +1,543 @@
+body{
+    background-color: black;
+    color: white;
+	font-family: 'century gothic';
+	margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0;
+    color: white;
+    text-decoration: none;
+}
+h1 {
+    
+}
+h2 {
+    color: white;
+    padding: 0 50px;
+}
+h3 {
+    color: white;
+    margin: 10px;
+}
+h4 {
+    color: white;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+.navblock {
+    display: inline-block;
+    margin: auto;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    transition: 0.3s ease;
+}
+.navblock:hover {
+    border-bottom: 2px solid #ffffff;
+    padding: 6px 20px;
+}
+.shit {
+    display: inline-block;
+}
+.resize {
+    width: 500px;
+    height: auto;
+}
+h1 {
+    display: inline-block;
+    padding-top: 40px;
+    width: 1000px;
+}
+.albumbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nodec {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+.album {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image {
+    width: 500px;
+    overflow:hidden;
+}
+.image img {
+ -moz-transition: all 1.2s ease-out;
+ -o-transition: all 1.2s ease-out;
+ -webkit-transition: all 1.2s ease-out;
+ }
+ 
+.image img:hover{
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+ }
+.temno {
+    display: flex;
+    background-color: black;
+    opacity: 100%;
+    background-color: #2e2e2e;
+    transition: 0.1s ease-out;
+}
+.temno:hover {
+    background-color: #1c1c1c ;
+}
+.song-info {
+    display: inline-block;
+    width: 470px;
+    padding: 15px;
+}
+.song-info p {
+    font-size: 20px;
+}
+.mainheader{
+    background-image: url(SLbagzreGZs1.jpg);
+    background: linear-gradient(180deg, #335a151c 15%, #000000 100%), url(SLbagzreGZs1.jpg) no-repeat center center / cover;
+    display: inline-block;
+    width: 100%;
+    height: 900px;
+	color: #fff;
+    font-family: 'century gothic';
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    margin-bottom: 80px;
+}
+.pop {
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.pesni{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 1000px;
+    height: 200px;
+}
+.top h2 {
+    text-align: center;
+}
+.trek {
+    padding: 20px 20px 0 20px;
+}
+.icon {
+    width: 55px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+
+.txt{
+    width: 1300px;
+    font-size: 22px;
+    position: relative;
+}
+.txt p{
+    position: relative;
+}
+.bio {
+    display: flex;
+    justify-content: center;
+    padding: 70px 100px 160px 50px;
+}
+
+.qwerty {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.prikol {
+    background-image: url(IMG_4284.PNG);
+    width: 1000px;
+    height: 720px;
+    background-size: 100% 100%;
+    border-radius: 34% 66% 61% 39% / 60% 42% 58% 40% ;
+    position: absolute;
+    right: 0;
+}
+
+
+.inst {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: 100%;
+    background-image: url(instagram.png);
+}
+.spot {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: 100%;
+    background-image: url(spotify.png);
+}
+.vk {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: 100%;
+    background-image: url(VK_Compact_Logo.svg);
+}
+.yan {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: 100%;
+    background-image: url(yandex.png);
+}
+.yt {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: 100%;
+    background-image: url(youtube.png);
+}
+.mainfooter {
+    display: flex;
+    justify-content: space-around;
+    padding: 0  100px 50px 50px;
+}
+.mainfooter p {
+    font-weight: 700;
+}
+.podpis {
+    position: absolute;
+    right: 0;
+}
+
+
+
+
+
+
+
+
+.mainheader2{
+    background-image: url(55153c2dc86fb7450180f49389c80448.jpg);
+    background: linear-gradient(180deg, #335a151c 15%, #000000 94%), url(55153c2dc86fb7450180f49389c80448.jpg) no-repeat center center / cover;
+    display: inline-block;
+    width: 100%;
+    height: 1100px;
+	color: #000;
+    font-family: 'century gothic';
+    text-align: center;
+    font-size: 20px;
+    
+}
+.mainheader2 .navblock {
+    color: black;
+}
+.mainheader2 .navblock:hover {
+    border-bottom: 2px solid #000;
+    padding: 6px 20px;
+}
+.mainheader2 nav {
+    padding-bottom: 70px;
+}
+
+.merch {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 200px;
+}
+.tovar {
+    display: inline-block;
+    width: 350px;
+    height: 500px;
+    border-radius: 15px;
+}
+.temno2 {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5) ;
+    width: 100%;
+    height: 100%;
+    transition: 0.4s ease-out;
+    border-radius: 15px;
+}
+.temno2:hover {
+    backdrop-filter: blur(5px);
+}
+.mainheader2 h4 {
+    color: white;
+}
+.tsh {
+    margin-top: 20px;
+    display: inline-block;
+    background-image: url(28f4984f5e1516410e71df6474b97b6b.jpg);
+    width: 300px;
+    height: 300px;
+    background-size: 100%;
+}
+.tsh:hover {
+    animation: move 16s infinite ease-out;
+}
+@keyframes move {
+    0%{background-image: url(28f4984f5e1516410e71df6474b97b6b.jpg);}
+    20%{background-image: url(1U8KVykmiiI.jpg);}
+    40%{background-image: url(siZytrbvMIM.jpg);}
+    60%{background-image: url(CB8-M2vI-bo.jpg);}
+    80%{background-image: url(MCvsjh9mSYc.jpg);}
+    100%{background-image: url(28f4984f5e1516410e71df6474b97b6b.jpg);}
+}
+
+
+.tsh2 {
+    margin-top: 20px;
+    display: inline-block;
+    background-image: url(5Xhus_UHSZM.jpg);
+    width: 300px;
+    height: 300px;
+    background-size: 100%;
+}
+.tsh2:hover {
+    animation: move2 10s infinite ease-out;
+}
+@keyframes move2 {
+    0%{background-image: url(5Xhus_UHSZM.jpg);}
+    33%{background-image: url(4t_N13kxNi4.jpg);}
+    66%{background-image: url(82DojjhDZAU.jpg);}
+    100%{background-image: url(5Xhus_UHSZM.jpg);}
+}
+
+
+.tsh3 {
+    margin-top: 20px;
+    display: inline-block;
+    background-image: url(VipjxTKepAw.jpg);
+    width: 300px;
+    height: 300px;
+    background-size: 100% 100%;
+}
+.tsh3:hover {
+    animation: move3 10s infinite ease-out;
+}
+@keyframes move3 {
+    0%{background-image: url(VipjxTKepAw.jpg);}
+    33%{background-image: url(xve1PFV4uuI.jpg);}
+    66%{background-image: url(whIBZm-Weyg.jpg);}
+    100%{background-image: url(VipjxTKepAw.jpg);}
+}
+.oform {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #2e2e2e;
+    margin: 50px;
+    padding-top: 25px;
+    box-shadow: 3px 3px 0 0 #1c1c1c;
+}
+.shop{
+    margin-left: 150px;
+}
+.shopping-cart {
+    display: inline-block;
+    width: 80%;
+    padding: 10px 50px 10px 100px;
+    margin-bottom: 150px;
+}
+.product-image { margin-left: 20px; float: left; width: 27%; }
+.product-details { float: left; width: 24%; }
+.product-price { float: left; width: 17%; }
+.product-quantity { float: left; width: 12%; }
+.product-removal { float: left; width: 9%; }
+.product-line-price { float: left; width: 12%; text-align: right; }
+.productsss {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+.product {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(130,130,130,.15);
+    padding: 5px;
+}
+.sale {
+    width: 200px;
+    border-radius: 15px;
+    height: 200px;
+}
+.proddisc {
+    text-align:center;
+    width: 500px;
+    height: 40px;
+    margin: 15px 0 15px 10px;
+    font-size: 20px;
+}
+.prodprice {
+    text-align:center;
+    width: 200px;
+    margin: 15px 0;
+    font-size: 20px;
+}
+.quant {
+    width: 40px;
+    margin-left: 150px;
+}
+.checkbox {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    margin: 100px;
+}
+.check {
+    display: flex;
+}
+.check p{
+    width: 13px;
+}
+.total {
+    display: flex;
+}
+.total p{
+    padding-top: 10px;
+    font-weight: 400;
+    width: 100%;
+    text-align: end;
+}
+
+
+
+
+
+.mainheader3{
+    background-image: url(TQk2u6d86X0.jpg);
+    background: linear-gradient(180deg, #335a151c 15%, #000000 92%), url(TQk2u6d86X0.jpg) no-repeat center center / cover;
+    display: inline-block;
+    width: 100%;
+    height: 1100px;
+	color: #000;
+    font-family: 'century gothic';
+    background-blend-mode:hard-light;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 120px;
+}
+.mainheader3 nav {
+    padding-bottom: 20px;
+}
+.mainconc {
+    display: inline-block;
+    justify-content: center;
+    width: 700px;
+    height: 700px;
+    padding: 50px;
+    
+}
+.mainconc h2 {
+    padding: 0;
+    margin-top: 60px;
+    margin-bottom: 0;
+    color: white;
+    width: 700px;
+    font-size: 28px;
+    font-family: 'Press Start 2P', cursive;
+}
+.afisha {
+    display: inline-block;
+    width: 700px;
+    height: 700px;
+    text-align: center;
+    background-image: url(C00WM1yrtnY.jpg);
+    background-size: 100%
+}
+.button {
+    display: inline-block;
+    width: 200px;
+    height: 80px;
+    font-weight: 700;
+    background-color: #ffef20;
+    Box-shadow: 4px 4px 0 0 #f4508d;
+    color: black;
+}
+.button:hover {
+    background-color: #f4508d;
+    color: white;
+    Box-shadow: 4px 4px 0 0 #ffef20;
+}
+.disc {
+    margin-bottom: 30px;
+}
+.button p {
+    color: black;
+    padding: 25px;
+}
+.button:hover p {
+    color: white;
+    text-shadow: 2px 2px 0 #000;
+}
+.concerts {
+    display: flex;
+    flex-direction: column;
+    width: 92%;
+    height: auto;
+    margin-bottom: 150px;
+}
+.other {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.conc {
+    display: flex;
+    border-bottom: 1px solid rgba(130,130,130,.15);
+    margin: 0 0 0px 100px;
+    padding: 5px;
+}
+.date {
+    width: 130px;
+    margin: 15px 0 15px 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.place {
+    width: 600px;
+    margin: 15px 0 15px 10px;
+    font-size: 20px;
+}
+.city {
+    width: 800px;
+    margin: 15px 0 15px 10px;
+    font-size: 20px;
+}
+.tickets {
+    width: 60px;
+    height: 20px;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: 5px;
+    padding: 12px 10px 10px 10px;
+    background-color: #272727;
+    text-decoration: none;
+}
